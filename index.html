@@ -41,6 +41,10 @@
         max-height: 100vh;
         margin: auto;
     }
+
+      .table tbody tr:nth-child(2n) {
+    border-bottom: 1px solid #ccc; /* Add a line below every second row */
+}
   </style>
 
 </head>
@@ -88,14 +92,14 @@
     <li>Fully open source - please take the model and improve / build upon it!</li>
 </ul>
 <br>
-    <img src="text2midi_architecture.jpg" width="100%">
+    <img src="text2midi_architecture.jpg" width="50%">
 <br>
 
             <h2><font color="000093">Text2music generated samples:</font>
 </h2>
 The models were provided with the below input text prompts to generate the midi files.  
     
-<table class="table" align="center" style="table-layout: fixed;word-break:break-word">
+<table class="table" align="center" style="table-layout: fixed;word-break:break-word; border-spacing: 0 10px;">
   <tbody>
 
           <tr>
