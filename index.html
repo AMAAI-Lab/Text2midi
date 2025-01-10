@@ -79,7 +79,7 @@
 
          <br>
 <h2><font color="000093">Highlights:</font></h2>
-<ul style="font-size: 14px;">
+<ul style="font-size: 18;">
     <li>Generates midi files from rich text inputs, including music terms like chord and key names.</li>
     <li>First end-to-end trained text-to-midi model</li>
     <li>Fully open source - please take the model and improve / build upon it!</li>
@@ -94,7 +94,38 @@ The models were provided with the below input text prompts to generate the midi 
     
 <table class="table" align="center" style="table-layout: fixed;word-break:break-word">
   <tbody>
-    
+
+          <tr>
+      <td  class="mono">
+        A sad pop song with a strong piano presence.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <midi-player
+          src="samples/output_D.mid"
+          sound-font visualizer="#myVisualizer5">
+        </midi-player>
+        <midi-visualizer type="piano-roll" id="myVisualizer5"></midi-visualizer>
+      </td>
+    </tr>
+
+          <tr>
+      <td  class="mono">
+        A rock song with strong drums and electric guitar. The tempo is very fast. 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <midi-player
+          src="samples/output_E.mid"
+          sound-font visualizer="#myVisualizer6">
+        </midi-player>
+        <midi-visualizer type="piano-roll" id="myVisualizer6"></midi-visualizer>
+      </td>
+    </tr>
+
+      
     <tr>
       <td  class="mono">
         A soft love song on piano. 
